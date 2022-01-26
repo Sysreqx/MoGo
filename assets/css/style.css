@@ -326,9 +326,39 @@ h1, h2, h3, h4, h5, h6 {
 /* Service */
 .service {
 	display: flex;
+	text-align: left;
 	justify-content: space-between;
 }
 
 .service__item {
-	width: 100%;
+	flex:  1 1 350px;
+	position: relative;
+	padding-left: 70px;
+    padding-right: 40px;
+	font-size: 14px;
 }
+
+.service__icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.service__title {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.service__text {
+	margin-bottom: 50px;
+}
+
+.hr {
+	border: 0;
+	height: 1px;
+	background-color: #e5e5e5;
+	margin-bottom: 50px;
+}
+
