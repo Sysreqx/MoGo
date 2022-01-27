@@ -391,3 +391,57 @@ h1, h2, h3, h4, h5, h6 {
 	left: 60%;
 }
 
+
+/* Service2 */
+.service2__inner {
+	display: flex;
+	justify-content: space-between;
+	padding: 110px 0;
+	text-align: left;
+}
+
+.service2__item {
+	width: 49%;
+}
+
+.service2__right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.service2__element {
+	border: 1px solid #e5e5e5;
+}
+
+.element__header {
+	position: relative;
+	padding-left: 45px;
+}
+
+.element__icon {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translate(0, -50%);
+}
+
+.element__title, .element__text {
+	padding: 15px;
+}
+
+.element__title {
+	text-transform: uppercase;
+	color: #333;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.element__text {
+	border-top: 1px solid #e5e5e5;
+	color: #999;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+}
+
