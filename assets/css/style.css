@@ -206,6 +206,13 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
+.section--feauture {
+	padding: 0;
+	background: url("../images/feauture/feauture-bg.jpg") center no-repeat;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+
 .section__header {
 	padding-top: 80px;
 }
@@ -328,6 +335,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	text-align: left;
 	justify-content: space-between;
+	margin-bottom: 50px;
 }
 
 .service__item {
@@ -352,7 +360,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service__text {
-	margin-bottom: 50px;
 }
 
 .hr {
@@ -360,5 +367,27 @@ h1, h2, h3, h4, h5, h6 {
 	height: 1px;
 	background-color: #e5e5e5;
 	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+/* Feauture */
+.feauture {
+	position: relative;
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 45%;
+	transform: translate(-45%);
+}
+
+.feauture__item1 {
+	display: block;
+	margin: 0 auto;
+} 
+
+.feauture__item2 {
+	position: absolute;
+	bottom: -75px;
+	left: 60%;
 }
 
